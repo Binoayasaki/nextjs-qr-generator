@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
+import { SessionProvider } from "next-auth/react";
 import { Geist, Geist_Mono } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Suspense } from "react";
+import { SkeletonHero } from "@/ui/skeletonHero";
+
 import "./globals.css";
+import "./styles.sass";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <SessionProvider>
+          {" "}
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Suspense fallback={<SkeletonHero />}>{children}</Suspense>
+          </ThemeProvider>
+        </SessionProvider>
       </body>
     </html>
   );
