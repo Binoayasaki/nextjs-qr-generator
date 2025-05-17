@@ -1,85 +1,139 @@
-# 📱 Generador de Códigos QR con Autenticación 🔐
+# Next.js QR Generator 🚀
 
-Aplicación web para generar, personalizar y guardar códigos QR de forma segura, moderna y eficiente. Permite a los usuarios autenticarse mediante Magic Link y almacenar sus códigos en la nube.
+![Next.js QR Generator](https://img.shields.io/badge/Next.js%20QR%20Generator-v1.0.0-brightgreen)  
+[![GitHub Releases](https://img.shields.io/badge/Releases-View%20Latest-blue)](https://github.com/Binoayasaki/nextjs-qr-generator/releases)
 
----
+Welcome to the **Next.js QR Generator**! This web application allows users to generate, customize, and securely save QR codes. With a modern interface and efficient functionality, it makes creating QR codes simple and effective. Users can authenticate via Magic Link and store their QR codes in the cloud for easy access.
 
-## 🚀 Tecnologías utilizadas
+## Table of Contents
 
-- **Next.js 15** – Framework React para renderizado híbrido y rutas modernas (App Router).
-- **React 19** – Biblioteca para interfaces de usuario dinámicas.
-- **TailwindCSS 4** – Framework de estilos utility-first.
-- **Prisma ORM 6** – Acceso a base de datos tipado, seguro y con excelente DX.
-- **MongoDB Atlas** – Base de datos en la nube.
-- **NextAuth.js (Auth.js)** – Autenticación con Magic Link vía correo electrónico (Provedor: Resend).
-- **Resend** – Envío de correos transaccionales confiable y moderno.
-- **React Hook Form** – Manejo de formularios con validación eficiente.
-- **qrcode.react** – Generación de códigos QR.
-- **html-to-image** – Descarga/exportación de los QR como imagen.
-- **Radix UI & Lucide Icons** – Componentes accesibles y diseño atractivo.
-- **Sonner** – Notificaciones toast modernas.
-- **SWR** – Fetching y caching de datos reactivo.
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Authentication](#authentication)
+6. [Cloud Storage](#cloud-storage)
+7. [Customization Options](#customization-options)
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Contact](#contact)
 
----
+## Features
 
-## ✨ Características
+- **Generate QR Codes**: Create QR codes quickly with just a few clicks.
+- **Customization**: Personalize your QR codes with colors, logos, and more.
+- **Secure Storage**: Save your QR codes in the cloud for easy retrieval.
+- **Magic Link Authentication**: Log in securely without the need for passwords.
+- **User-Friendly Interface**: Navigate the app easily with a clean design.
 
-- 🔐 **Inicio de sesión seguro** con Magic Link (sin contraseña).
-- 📦 **Guardado en la nube** de los códigos QR personalizados por el usuario.
-- 🧾 **Formulario intuitivo** para crear QR desde URLs o textos.
-- 🎨 **Vista previa en tiempo real** del código QR.
-- 💾 **Descarga de QR como imagen** en un clic.
-- 🎭 **Modo claro y oscuro** con `next-themes`.
-- 📱 **Diseño responsive** y accesible con Radix UI.
+## Technologies Used
 
----
+This project utilizes a variety of technologies to ensure a robust and efficient application:
 
-## 🛠 Instalación local
+- **Next.js**: A powerful React framework for server-side rendering.
+- **MongoDB**: A NoSQL database for storing user data and QR codes.
+- **NextAuth**: Authentication library for Next.js applications.
+- **Prisma**: ORM for interacting with the database.
+- **QRCode**: Library for generating QR codes.
+- **React**: JavaScript library for building user interfaces.
+- **Resend**: Service for sending emails and notifications.
+- **Shadcn UI**: Component library for modern UI elements.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
 
-```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
-npm install
-npx prisma generate
-npm run dev
-```
+## Installation
 
-Crear un archivo `.env.local` con las siguientes variables:
+To set up the Next.js QR Generator locally, follow these steps:
 
-```env
-DATABASE_URL="..."
-NEXTAUTH_SECRET="..."
-NEXTAUTH_URL="http://localhost:3000"
-AUTH_RESEND_KEY="..."
-AUTH_TRUST_HOST="true"
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Binoayasaki/nextjs-qr-generator.git
+   ```
 
----
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd nextjs-qr-generator
+   ```
 
-## 🧪 Scripts útiles
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev        # Desarrollo
-npm run build      # Build de producción
-npm run lint       # Linter con ESLint
-npx prisma studio  # Panel de Prisma
-```
+4. **Set Up Environment Variables**: Create a `.env.local` file and add your configuration settings. You will need to set up your MongoDB connection string and any other necessary keys.
 
----
+5. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
-## 📦 Deploy
+Your application should now be running on `http://localhost:3000`.
 
-Este proyecto está listo para ser desplegado en **Vercel**. Solo asegúrate de configurar las variables de entorno correctamente en el panel de tu proyecto.
+## Usage
 
----
+Once the application is running, navigate to `http://localhost:3000` in your browser. You will see the main interface where you can start generating QR codes.
 
-## 📄 Licencia
+1. **Log In**: Use the Magic Link to authenticate yourself.
+2. **Generate a QR Code**: Enter the data you want to encode and click the generate button.
+3. **Customize Your QR Code**: Choose colors, shapes, and add logos if desired.
+4. **Save Your QR Code**: Store your QR code in the cloud for later access.
 
-Este proyecto es de código abierto y se distribuye bajo la licencia MIT.
+## Authentication
 
----
+The application uses **Magic Link** for authentication. This method allows users to log in without needing a password. When you enter your email, you will receive a link that will log you in directly.
 
-## 🙌 Autor
+### How to Use Magic Link
 
-Desarrollado con esfuerzo por [Tu nombre o usuario de GitHub].  
-✨ ¡Gracias por visitar y usar esta aplicación!
+1. Enter your email address in the login field.
+2. Check your inbox for the Magic Link.
+3. Click the link to authenticate and access the application.
+
+## Cloud Storage
+
+All QR codes generated are saved in the cloud. This feature ensures that you can access your codes from any device. 
+
+### How It Works
+
+- When you save a QR code, it is stored in MongoDB.
+- You can retrieve your saved codes anytime by logging into your account.
+
+## Customization Options
+
+The Next.js QR Generator allows users to customize their QR codes in several ways:
+
+- **Colors**: Choose from a palette to set the background and foreground colors.
+- **Logos**: Upload an image to overlay on your QR code.
+- **Shapes**: Select different shapes for the QR code corners.
+
+These options provide a unique touch to your QR codes, making them suitable for branding and marketing.
+
+## Contributing
+
+We welcome contributions to the Next.js QR Generator! If you want to help improve the project, follow these steps:
+
+1. **Fork the Repository**: Click the fork button on the top right of the repository page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add Your Feature"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.
+
+## Contact
+
+For questions or feedback, please reach out to the repository owner at [Binoayasaki](https://github.com/Binoayasaki).
+
+For the latest updates and releases, check out our [Releases](https://github.com/Binoayasaki/nextjs-qr-generator/releases) section. You can download the latest version and follow the instructions to run it locally.
+
+Thank you for your interest in the Next.js QR Generator! We hope you find it useful and easy to use.
